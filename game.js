@@ -101,7 +101,7 @@ function Snake() {
         for(let i = 0; i < bubbles.length; i++)
         {
           let s = dist(this.x, this.y, bubbles[i].x, bubbles[i].y);
-          if (d < 1 || s < 15) {
+          if (d < 1 || s < 20) {
             this.total = 0;
             this.tail = [];
             bubbles = [];
