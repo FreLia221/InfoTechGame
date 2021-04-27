@@ -10,6 +10,7 @@ function setup() {
   pickLocation();
 }
 
+//food appearing
 function pickLocation() {
   let cols = floor(width / siz);
   let rows = floor(height / siz);
@@ -46,7 +47,7 @@ function keyPressed() {
     snake.direction(-1, 0);
   }
 }
-
+//blue boxes
 function Bubble() {
   this.x = random(0, width);
   this.y = random(0, height);
